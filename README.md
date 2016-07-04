@@ -8,7 +8,7 @@ Live demo [Here](https://node-multiplayer-snake.herokuapp.com/)
 
 ### Getting Started
 
-Install the latest [Node.js](http://nodejs.org) 5.60 Stable
+Install the latest [Node.js](http://nodejs.org) 6 Stable
 
 `git clone https://github.com/simondiep/node-multiplayer-snake.git`
 
@@ -94,6 +94,9 @@ Open your web browser to `localhost:3000`
  - [Issues](https://github.com/simondiep/node-multiplayer-snake/issues)
 
 ### Longer-term Tech Debt
+ - Redo front-end with React
+   - Front-end testing with Jest
+ - Update to Node 6
  - Chai does not support --use_strict mode, yet.  Replace chai or wait for support.
     - This means "use strict"; is needed in all node modules, even though it is redundant
  - Switch to SASS when Windows makes it easier to install [node-gyp dependencies](https://github.com/nodejs/node-gyp/issues/629).
